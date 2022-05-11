@@ -1,4 +1,4 @@
-import { Nav, Button } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faMessage, faPlugCircleBolt, faBoxOpen, faBars } from '@fortawesome/free-solid-svg-icons';
