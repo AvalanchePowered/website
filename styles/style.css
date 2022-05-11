@@ -9,7 +9,7 @@
 }
 
 .bg-nav {
-    background-color:  #373A3E;
+    background-color: #373A3E;
 }
 
 .px-10 {
@@ -30,9 +30,21 @@
     font-weight: bold;
 }
 
+.social-links {
+    color: var(--bs-light)
+}
+
+.social-links:hover {
+    color: #A9A9A9;
+}
+
 .nav-active div {
     background-color: var(--bs-primary);
     border-radius: 4px;
+}
+
+.nav-active:hover div {
+    background-color:  #0B63E3;
 }
 
 .nav-hover div {

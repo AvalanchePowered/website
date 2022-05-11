@@ -1,4 +1,4 @@
-import { Nav } from 'react-bootstrap';
+import { Nav, Button } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faMessage, faPlugCircleBolt, faBoxOpen, faBars } from '@fortawesome/free-solid-svg-icons';
@@ -14,8 +14,8 @@ const NavigationBar = () => {
 
                 <span className="d-flex flex-grow-1">
                     <Link href="/" passHref={true}>
-                        <a>
-                            <div className="navbar-brand d-flex align-items-center col-md-3 mb-2 mb-md-0 flex-grow-1">
+                        <a className="flex-grow-1">
+                            <div className="navbar-brand d-flex align-items-center col-md-3 mb-2 mb-md-0">
                                 <img src="/assets/img/avalanche.png" height="64" aria-label="Image of Avalanche"></img>
                             </div>
                         </a>
@@ -66,10 +66,10 @@ const NavigationBar = () => {
                     </ul>
 
                     <div className="d-flex justify-content-end gap-3 nav-link col-lg-4">
-                        <a href="https://github.com/AvalanchePowered" target="_blank" className="text-light">
+                        <a href="https://github.com/AvalanchePowered" target="_blank" className="social-links">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
-                        <a href="https://discord.gg/2yVBFtw" target="_blank" className="text-light">
+                        <a href="https://discord.gg/2yVBFtw" target="_blank" className="social-links">
                             <FontAwesomeIcon icon={faDiscord} />
                         </a>
                     </div>
