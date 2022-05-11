@@ -13,9 +13,11 @@ const NavigationBar = () => {
             <Nav className="navbar navbar-expand-lg sticky-top bg-nav justify-content-center justify-content-md-between px-5 shadow-lg">
 
                 <span className="d-flex flex-grow-1">
-                    <div className="navbar-brand d-flex align-items-center col-md-3 mb-2 mb-md-0 flex-grow-1">
-                        <img src="/assets/img/avalanche.png" height="64" aria-label="Image of Avalanche"></img>
-                    </div>
+                    <Link href="/">
+                        <div className="navbar-brand d-flex align-items-center col-md-3 mb-2 mb-md-0 flex-grow-1">
+                            <img src="/assets/img/avalanche.png" height="64" aria-label="Image of Avalanche"></img>
+                        </div>
+                    </Link>
 
                     <button className="btn-secondary navbar-toggler align-self-center" data-bs-toggle="collapse" data-bs-target="#navigationBar" aria-controls="navigationBar" aria-expanded="false" aria-label="Toggle navigation">
                         <FontAwesomeIcon icon={faBars} />
