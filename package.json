@@ -1,0 +1,28 @@
+{
+    "name": "avalanchepowered.org",
+    "description": "The webpage that is currently active on avalanchepowered.org.",
+    "version": "1.0.0",
+
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-brands-svg-icons": "^6.1.1",
+        "@fortawesome/free-regular-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/react-fontawesome": "^0.1.18",
+        "aos": "^2.3.4",
+        "bootstrap": "^5.1.3",
+        "next": "^12.1.0",
+        "next-seo": "^5.1.0",
+        "react": "17.0.2",
+        "react-bootstrap": "^2.2.2",
+        "react-dom": "17.0.2",
+        "react-router-dom": "^6.2.2",
+        "react-tooltip": "^4.2.21",
+        "styled-components": "^5.3.5"
+    }
+}

@@ -1,0 +1,61 @@
+/* External styling not handled by Bootstrap. */
+
+.bg-viewport {
+    min-height: 100vh;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.bg-nav {
+    background-color:  #373A3E;
+}
+
+.px-10 {
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.monserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.nav-active {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-active div {
+    background-color: var(--bs-primary);
+    border-radius: 4px;
+}
+
+.nav-hover div {
+    border-radius: 4px;
+}
+
+.nav-hover:hover div {
+    background-color: var(--bs-secondary);
+    border-radius: 4px;
+}
+
+.massive-space-top {
+    margin-top: 150px;
+}
+
+.massive-space-bottom {
+    margin-bottom: 150px;
+}
+
+.lg-icon {
+    font-size: 150px;
+}
+
+.pt-10 {
+    padding-top: 150px;
+}
