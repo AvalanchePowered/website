@@ -1,11 +1,9 @@
 import { useEffect } from 'react';
 import { DefaultSeo } from 'next-seo';
 import SEO from '../nextseo.config';
-import AOS from 'aos';
 
 // Import Bootstrap's minified CSS and AOS.
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'aos/dist/aos.css';
 
 // Import Custom CSS for modifying things outside of Bootstrap.
 import '../styles/style.css';
