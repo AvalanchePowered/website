@@ -13,7 +13,6 @@ function App({ Component, pageProps }) {
 
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
-    AOS.init();
   }, []);
 
   return (
