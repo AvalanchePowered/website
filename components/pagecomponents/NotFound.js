@@ -6,7 +6,7 @@ const NotFound = () => {
         <>
             <div className="d-flex background-dark align-items-lg-center pt-5 pt-lg-0 text-light">
 
-                <div className="mx-5 px-5">
+                <div className="mx-2 px-lg-2 mx-lg-5 px-lg-5">
                     <p className="display-1">404</p>
                     <p className="fw-bold h4 text-primary">The page could not be found</p>
                     <p className="text-muted">The page you were trying to access either does not exist or has moved to a new location, sorry for the inconvenience.</p>
