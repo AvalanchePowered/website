@@ -101,7 +101,7 @@ const HomePage = () => {
               </Col>
             </Row>
 
-            <div className="pt-5 mt-3"></div>
+            <div className="pt-5 mt-3 my-lg-5 py-lg-4"></div>
 
             <Container className="pb-5">
               <Row className="row-cols-1 g-5">
