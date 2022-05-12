@@ -4,7 +4,7 @@ import Link from 'next/link';
 const NotFound = () => {
     return (
         <>
-            <div className="d-flex bg-dark bg-viewport align-items-center text-light">
+            <div className="d-flex background-dark align-items-lg-center pt-5 pt-lg-0 text-light">
 
                 <div className="mx-5 px-5">
                     <p className="display-1">404</p>

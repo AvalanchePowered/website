@@ -15,7 +15,7 @@ const NavigationBar = () => {
                 <span className="d-flex flex-grow-1 px-4">
                     <Link href="/" passHref={true}>
                         <a className="flex-grow-1">
-                            <div className="d-flex align-items-center col-md-3 mb-2 mb-lg-0">
+                            <div className="d-flex align-items-center col-md-3">
                                 <img src="/assets/img/avalanche.png" className="bi me-2" height="64" aria-label="Image of Avalanche"></img>
                             </div>
                         </a>
@@ -27,7 +27,7 @@ const NavigationBar = () => {
                 </span>
 
                 <div className="collapse navbar-collapse" id="navigationBar">
-                    <ul className="navbar-nav gap-2 gap-lg-4 col-12 col-lg-auto justify-content-center px-3 px-lg-0 mb-2 mb-lg-0 mt-2 mt-lg-0">
+                    <ul className="navbar-nav gap-2 gap-lg-4 col-12 col-lg-auto justify-content-center px-3 px-lg-0 mt-2 mt-lg-0">
 
                         <li>
                             <Link href="/" passHref={true}>
