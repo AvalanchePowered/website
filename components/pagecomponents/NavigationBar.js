@@ -27,7 +27,7 @@ const NavigationBar = () => {
                 </span>
 
                 <div className="collapse navbar-collapse" id="navigationBar">
-                    <ul className="navbar-nav gap-4 col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <ul className="navbar-nav gap-2 gap-md-4 col-12 col-md-auto justify-content-center px-3 px-md-0 mb-2 mb-md-0 mt-2 mt-md-0">
 
                         <li>
                             <Link href="/" passHref={true}>
