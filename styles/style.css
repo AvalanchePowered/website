@@ -44,7 +44,7 @@
 }
 
 .nav-active:hover div {
-    background-color:  #0B63E3;
+    background-color: #0B63E3;
 }
 
 .nav-hover div {
@@ -54,6 +54,12 @@
 .nav-hover:hover div {
     background-color: var(--bs-secondary);
     border-radius: 4px;
+}
+
+@media screen and (max-width: 991px) {
+    .hide-mobile {
+        display: none;
+    }
 }
 
 .massive-space-top {

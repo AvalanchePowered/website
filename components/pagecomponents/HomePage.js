@@ -26,7 +26,7 @@ const HomePage = () => {
               <div className="pt-5 d-flex flex-col justify-content-center align-items-center gap-2 g-4">
                 <a href="https://github.com/AvalanchePowered/Avalanche/releases/latest">
                   <Button className="fw-bold" variant="primary" size="lg">
-                    <FontAwesomeIcon className="px-2" icon={faDownload}></FontAwesomeIcon> Download Avalanche
+                    <FontAwesomeIcon className="px-2" icon={faDownload}></FontAwesomeIcon> Download
                   </Button>
                 </a>
                 <a href="https://docs.avalanchepowered.org">
@@ -49,14 +49,14 @@ const HomePage = () => {
                   and make sure they work as close to vanilla as possible!
                 </p>
               </Col>
-              <Col lg={6} className="d-flex justify-content-end align-self-center">
-                <FontAwesomeIcon icon={faSnowflake} className="lg-icon text-info" />
+              <Col lg={6} className="d-flex justify-content-lg-end align-self-center">
+                <FontAwesomeIcon icon={faSnowflake} className="lg-icon text-info hide-mobile" />
               </Col>
 
               <div className="massive-space-top"></div>
 
-              <Col lg={6} className="d-flex justify-content-start align-self-center">
-                <FontAwesomeIcon icon={faSleigh} className="lg-icon text-primary" />
+              <Col lg={6} className="d-flex justify-content-lg-start align-self-center">
+                <FontAwesomeIcon icon={faSleigh} className="lg-icon text-primary hide-mobile" />
               </Col>
               <Col lg={5}>
                 <p className="display-5 fw-bold">Creating plugins should not feel like a chore.</p>
@@ -77,14 +77,14 @@ const HomePage = () => {
                   we keep both of those places clean and friendly to make sure you always feel welcomed in our community.
                 </p>
               </Col>
-              <Col lg={6} className="d-flex justify-content-end align-self-center">
-                <FontAwesomeIcon icon={faCandyCane} className="lg-icon text-info" />
+              <Col lg={6} className="d-flex justify-content-lg-end align-self-center">
+                <FontAwesomeIcon icon={faCandyCane} className="lg-icon text-info hide-mobile" />
               </Col>
 
               <div className="massive-space-top"></div>
 
-              <Col lg={6} className="d-flex justify-content-start align-self-center">
-                <FontAwesomeIcon icon={faMitten} className="lg-icon text-primary" />
+              <Col lg={6} className="d-flex justify-content-lg-start align-self-center">
+                <FontAwesomeIcon icon={faMitten} className="lg-icon text-primary hide-mobile" />
               </Col>
               <Col lg={5}>
                 <p className="display-5 fw-bold">The control is all in your, mittens.</p>
