@@ -101,10 +101,10 @@ const HomePage = () => {
               </Col>
             </Row>
 
-            <div className="massive-space-top"></div>
+            <div className="pt-5 mt-3"></div>
 
             <Container className="pb-5">
-              <Row className="row-cols-1">
+              <Row className="row-cols-1 g-5">
                 <Col lg={3} className="text-center mt-5">
                   <FontAwesomeIcon icon={faBugs} size="5x" className="text-success" />
 
