@@ -27,7 +27,7 @@ const NavigationBar = () => {
                 </span>
 
                 <div className="collapse navbar-collapse" id="navigationBar">
-                    <ul className="navbar-nav gap-2 gap-lg-4 col-12 col-lg-auto px-3 px-lg-0 mt-2 mt-lg-0">
+                    <ul className="navbar-nav gap-2 gap-lg-4 col-12 col-lg-auto px-3 px-lg-0 mt-2 mt-lg-0 mb-3 mb-lg-0">
 
                         <li>
                             <Link href="/" passHref={true}>
@@ -66,21 +66,20 @@ const NavigationBar = () => {
                                 <div className="nav-link px-3 link-light monserrat">
                                     <span className="px-2">
                                         <FontAwesomeIcon className="px-1" icon={faBoxOpen} /> Download
-                                        </span>
+                                    </span>
                                 </div>
                             </a>
                         </li>
 
                     </ul>
-
-                    <div className="d-flex justify-content-end gap-3 nav-link col-lg-4">
-                        <a href="https://github.com/AvalanchePowered" target="_blank" className="social-links">
-                            <FontAwesomeIcon icon={faGithub} />
-                        </a>
-                        <a href="https://discord.gg/2yVBFtw" target="_blank" className="social-links">
-                            <FontAwesomeIcon icon={faDiscord} />
-                        </a>
-                    </div>
+                </div>
+                <div className="d-flex justify-content-end gap-3 nav-link">
+                    <a href="https://github.com/AvalanchePowered" target="_blank" className="social-links">
+                        <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                    <a href="https://discord.gg/2yVBFtw" target="_blank" className="social-links">
+                        <FontAwesomeIcon icon={faDiscord} />
+                    </a>
                 </div>
             </Nav>
         </>
