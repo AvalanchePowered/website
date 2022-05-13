@@ -98,9 +98,6 @@ const HomePage = () => {
               </p>
             </Col>
           </Row>
-
-          <div className=""></div>
-
         </Container>
       </div >
     </>
