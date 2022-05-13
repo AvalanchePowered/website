@@ -102,25 +102,15 @@ const HomePage = () => {
 
           <div className="pt-5 mt-4 my-lg-5 py-lg-4"></div>
 
-          <Container className="pb-5 px-2 px-lg-0">
+          <Container className="pb-5 px-0">
             <Row className="row-cols-2">
-              <Col lg={3} className="text-center mt-5">
-                <div>
-                  <FontAwesomeIcon icon={faBugs} size="5x" className="text-success" />
-                </div>
-                <a href="https://github.com/AvalanchePowered/Avalanche/issues/new?assignees=&labels=bug&template=bug_report.md&title=Bug%3A+" target="_blank">
-                  <Button variant="secondary" className="px-2 mt-4" size="md">
-                    <FontAwesomeIcon className="px-2" icon={faBugs} /> Bug Report
-                  </Button>
-                </a>
-              </Col>
               <Col lg={3} className="text-center mt-5">
                 <div>
                   <FontAwesomeIcon icon={faBookOpen} size="5x" className="text-info" />
                 </div>
-                <a href="https://docs.avalanchepowered.org">
-                  <Button variant="secondary" className="px-2 mt-4" size="md">
-                    <FontAwesomeIcon className="px-2" icon={faBookOpen} /> Documentation
+                <a className="text-decoration-none" href="https://docs.avalanchepowered.org">
+                  <Button variant="secondary" className="mt-4" size="md">
+                    <FontAwesomeIcon className="px-2" icon={faBookOpen} /> Docs
                   </Button>
                 </a>
               </Col>
@@ -128,19 +118,9 @@ const HomePage = () => {
                 <div>
                   <FontAwesomeIcon icon={faDiscord} size="5x" className="text-primary" />
                 </div>
-                <a href="https://discord.gg/2yVBFtw" target="_blank">
-                  <Button variant="secondary" className="px-2 mt-4" size="md">
-                    <FontAwesomeIcon className="px-2" icon={faDiscord} /> Join Discord
-                  </Button>
-                </a>
-              </Col>
-              <Col lg={3} className="text-center mt-5">
-                <div>
-                  <FontAwesomeIcon icon={faHeartCirclePlus} size="5x" className="text-danger" />
-                </div>
-                <a href="https://github.com/AvalanchePowered/Avalanche/issues/new?assignees=&labels=&template=feature_request.md&title=Feature+Request" target="_blank">
-                  <Button variant="secondary" className="px-2 mt-4" size="md">
-                    <FontAwesomeIcon className="px-2" icon={faHeartCirclePlus} /> Suggest Feature
+                <a className="text-decoration-none" href="https://discord.gg/2yVBFtw" target="_blank">
+                  <Button variant="secondary" className="mt-4" size="md">
+                    <FontAwesomeIcon className="px-2" icon={faDiscord} /> Discord
                   </Button>
                 </a>
               </Col>
