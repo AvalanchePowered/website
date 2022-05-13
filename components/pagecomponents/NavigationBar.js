@@ -1,15 +1,30 @@
-import { Nav } from 'react-bootstrap';
+import { Nav, Alert } from 'react-bootstrap';
+import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faMessage, faPlugCircleBolt, faBoxOpen, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faMessage, faPlugCircleBolt, faBoxOpen, faBars, faWarning } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
+
+function WebsiteNotification() {
+    const [show, setShow] = useState(true);
+
+    if (show) {
+        return (
+            <Alert className="m-0 fw-bold" variant="danger" onClose={() => setShow(false)} dismissible>
+                <FontAwesomeIcon icon={faWarning} className="px-2" />
+                <span>We are in development and a lot of things said on this website may not be there yet.</span>
+            </Alert>
+        );
+    }
+}
 
 const NavigationBar = () => {
     const router = useRouter();
 
     return (
         <>
+            <WebsiteNotification />
             <Nav className="navbar navbar-expand-lg sticky-top bg-nav shadow-lg">
 
                 <span className="d-flex flex-grow-1 px-4">

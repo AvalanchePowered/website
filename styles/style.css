@@ -19,17 +19,8 @@
     background-color: #373A3E;
 }
 
-.px-10 {
-    padding-left: 125px;
-    padding-right: 125px;
-}
-
 .monserrat {
     font-family: 'Montserrat', sans-serif;
-}
-
-.text-small {
-    font-size: 12px;
 }
 
 .nav-active {
@@ -70,17 +61,13 @@
 }
 
 .massive-space-top {
-    margin-top: 150px;
+    padding-top: 150px;
 }
 
 .massive-space-bottom {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 
 .lg-icon {
     font-size: 150px;
-}
-
-.pt-10 {
-    padding-top: 150px;
 }

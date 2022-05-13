@@ -1,7 +1,6 @@
 import { Container, Col, Row, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload, faBook, faSnowflake, faSleigh, faMitten, faCandyCane, faBugs, faBookOpen, faHeartCirclePlus } from '@fortawesome/free-solid-svg-icons';
-import { faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faDownload, faBook, faSnowflake, faSleigh, faMitten, faCandyCane } from '@fortawesome/free-solid-svg-icons';
 
 const HomePage = () => {
   return (
@@ -100,32 +99,7 @@ const HomePage = () => {
             </Col>
           </Row>
 
-          <div className="pt-5 mt-4 my-lg-5 py-lg-4"></div>
-
-          <Container className="pb-5 px-0">
-            <Row className="row-cols-2">
-              <Col lg={3} className="text-center mt-5">
-                <div>
-                  <FontAwesomeIcon icon={faBookOpen} size="5x" className="text-info" />
-                </div>
-                <a className="text-decoration-none" href="https://docs.avalanchepowered.org">
-                  <Button variant="secondary" className="mt-4" size="md">
-                    <FontAwesomeIcon className="px-2" icon={faBookOpen} /> Docs
-                  </Button>
-                </a>
-              </Col>
-              <Col lg={3} className="text-center mt-5">
-                <div>
-                  <FontAwesomeIcon icon={faDiscord} size="5x" className="text-primary" />
-                </div>
-                <a className="text-decoration-none" href="https://discord.gg/2yVBFtw" target="_blank">
-                  <Button variant="secondary" className="mt-4" size="md">
-                    <FontAwesomeIcon className="px-2" icon={faDiscord} /> Discord
-                  </Button>
-                </a>
-              </Col>
-            </Row>
-          </Container>
+          <div className=""></div>
 
         </Container>
       </div >
