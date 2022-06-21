@@ -78,7 +78,7 @@ const NavigationBar = () => {
                         </li>
 
                         <li>
-                            <a className="nav-hover text-decoration-none" href="https://github.com/AvalanchePowered/Avalanche/releases/latest">
+                            <a className="nav-hover text-decoration-none" href="https://github.com/JSPrismarine/JSPrismarine/releases/latest">
                                 <div className="nav-link px-3 link-light monserrat">
                                     <span className="px-2">
                                         <FontAwesomeIcon className="px-1" icon={faBoxOpen} /> Download
@@ -90,7 +90,7 @@ const NavigationBar = () => {
                     </ul>
                 </div>
                 <div className="d-flex justify-content-end gap-3 nav-link">
-                    <a href="https://github.com/AvalanchePowered" target="_blank" rel="noreferrer" className="social-links">
+                    <a href="https://github.com/JSPrismarine" target="_blank" rel="noreferrer" className="social-links">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a href="https://discord.gg/2yVBFtw" target="_blank" rel="noreferrer" className="social-links">
