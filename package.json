@@ -2,11 +2,11 @@
     "name": "avalanchepowered.org",
     "description": "The webpage that is currently active on avalanchepowered.org.",
     "version": "1.0.0",
-
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start"
+        "start": "next start",
+        "lint": "next lint"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "6.1.1",
@@ -21,5 +21,11 @@
         "react-bootstrap": "2.4.0",
         "react-dom": "18.1.0",
         "react-router-dom": "6.3.0"
+    },
+    "devDependencies": {
+        "eslint": "8.18.0",
+        "eslint-config-next": "12.1.6",
+        "eslint-config-prettier": "8.5.0",
+        "prettier": "2.7.1"
     }
 }

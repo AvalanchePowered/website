@@ -1,6 +1,7 @@
-import { Container, Col, Row, Button } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
+import { faBook, faCandyCane, faDownload, faMitten, faSleigh, faSnowflake } from '@fortawesome/free-solid-svg-icons';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload, faBook, faSnowflake, faSleigh, faMitten, faCandyCane } from '@fortawesome/free-solid-svg-icons';
 
 const HomePage = () => {
   return (
@@ -75,7 +76,7 @@ const HomePage = () => {
               <p>
                 Did you run into an issue whilst trying Avalanche? You can get support from our community in the
                 the <a href="https://forums.avalanchepowered.org" className="fw-bold text-decoration-none">Forums</a> and
-                the <a href="https://discord.gg/2yVBFtw" target="_blank" className="fw-bold text-decoration-none">Discord Guild</a>,
+                the <a href="https://discord.gg/2yVBFtw" target="_blank" rel="noreferrer" className="fw-bold text-decoration-none">Discord Guild</a>,
                 we keep both of those places clean and friendly to make sure you always feel welcomed in our community.
               </p>
             </Col>
@@ -99,7 +100,7 @@ const HomePage = () => {
             </Col>
           </Row>
         </Container>
-      </div >
+      </div>
     </>
   )
 }

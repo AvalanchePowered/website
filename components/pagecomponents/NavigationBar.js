@@ -1,10 +1,11 @@
-import { Nav, Alert } from 'react-bootstrap';
-import { useState } from 'react';
-import { useRouter } from 'next/router';
+import { Alert, Nav } from 'react-bootstrap';
+import { faBars, faBoxOpen, faHome, faMessage, faPlugCircleBolt, faWarning } from '@fortawesome/free-solid-svg-icons';
+import { faDiscord, faGithub } from '@fortawesome/free-brands-svg-icons';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faMessage, faPlugCircleBolt, faBoxOpen, faBars, faWarning } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 function WebsiteNotification() {
     const [show, setShow] = useState(true);
@@ -89,10 +90,10 @@ const NavigationBar = () => {
                     </ul>
                 </div>
                 <div className="d-flex justify-content-end gap-3 nav-link">
-                    <a href="https://github.com/AvalanchePowered" target="_blank" className="social-links">
+                    <a href="https://github.com/AvalanchePowered" target="_blank" rel="noreferrer" className="social-links">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href="https://discord.gg/2yVBFtw" target="_blank" className="social-links">
+                    <a href="https://discord.gg/2yVBFtw" target="_blank" rel="noreferrer" className="social-links">
                         <FontAwesomeIcon icon={faDiscord} />
                     </a>
                 </div>
